@@ -1,0 +1,6 @@
+*.tab.c
+*.tab.h
+lex.yy.c
+program
+*.out
+

@@ -36,4 +36,8 @@ flowchart TD
     style E fill:#f3e5f5,stroke:#7b1fa2
     style LEX fill:#fff8e1
     style PARSE fill:#f1f8e9
+
+```bash
+#Remove this before run again
+ rm -f y.tab.c y.tab.h y.output calc3.tab.c calc3.tab.h a.out calc3
 ```

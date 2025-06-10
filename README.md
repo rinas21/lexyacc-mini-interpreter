@@ -36,6 +36,7 @@ flowchart TD
     style E fill:#f3e5f5,stroke:#7b1fa2
     style LEX fill:#fff8e1
     style PARSE fill:#f1f8e9
+```
 
 ```bash
 

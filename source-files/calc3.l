@@ -31,6 +31,7 @@ void yyerror(char *);
 "=="            return EQ;
 "!="            return NE;
 "while"         return WHILE;
+"then"          return THEN;
 "if"            return IF;
 "else"          return ELSE;
 "print"         return PRINT;

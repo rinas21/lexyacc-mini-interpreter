@@ -38,6 +38,6 @@ flowchart TD
     style PARSE fill:#f1f8e9
 
 ```bash
-#Remove this before run again
+
  rm -f y.tab.c y.tab.h y.output calc3.tab.c calc3.tab.h a.out calc3
 ```

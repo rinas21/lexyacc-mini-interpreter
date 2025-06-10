@@ -58,14 +58,15 @@ extern int yydebug;
     VARIABLE = 259,                /* VARIABLE  */
     WHILE = 260,                   /* WHILE  */
     IF = 261,                      /* IF  */
-    PRINT = 262,                   /* PRINT  */
-    IFX = 263,                     /* IFX  */
-    ELSE = 264,                    /* ELSE  */
-    GE = 265,                      /* GE  */
-    LE = 266,                      /* LE  */
-    EQ = 267,                      /* EQ  */
-    NE = 268,                      /* NE  */
-    UMINUS = 269                   /* UMINUS  */
+    THEN = 262,                    /* THEN  */
+    ELSE = 263,                    /* ELSE  */
+    PRINT = 264,                   /* PRINT  */
+    IFX = 265,                     /* IFX  */
+    GE = 266,                      /* GE  */
+    LE = 267,                      /* LE  */
+    EQ = 268,                      /* EQ  */
+    NE = 269,                      /* NE  */
+    UMINUS = 270                   /* UMINUS  */
   };
   typedef enum yytokentype yytoken_kind_t;
 #endif
@@ -78,14 +79,15 @@ extern int yydebug;
 #define VARIABLE 259
 #define WHILE 260
 #define IF 261
-#define PRINT 262
-#define IFX 263
-#define ELSE 264
-#define GE 265
-#define LE 266
-#define EQ 267
-#define NE 268
-#define UMINUS 269
+#define THEN 262
+#define ELSE 263
+#define PRINT 264
+#define IFX 265
+#define GE 266
+#define LE 267
+#define EQ 268
+#define NE 269
+#define UMINUS 270
 
 /* Value type.  */
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
@@ -97,7 +99,7 @@ union YYSTYPE
     char sIndex;                /* symbol table index */
     nodeType *nPtr;             /* node pointer */
 
-#line 101 "y.tab.h"
+#line 103 "y.tab.h"
 
 };
 typedef union YYSTYPE YYSTYPE;

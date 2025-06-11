@@ -1,0 +1,7 @@
+// My first program
+integer myVar := 10;
+float pi := 3.14; /* A multi-line
+                   comment */
+if (myVar < 20) {
+    write(pi);
+}

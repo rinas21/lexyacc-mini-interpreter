@@ -1,0 +1,14 @@
+Starting parsing...
+Declaration recognized.
+Declaration recognized.
+Write statement recognized.
+If statement recognized.
+
+Parsing finished.
+
+--- Symbol Table Contents ---
+Lexeme               Type (Bison ID)
+----------------------------------
+myVar                261
+pi                   261
+----------------------------------

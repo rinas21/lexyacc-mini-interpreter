@@ -1,0 +1,39 @@
+// Calculator program
+class Calculator {
+    private attribute value : float;
+    
+    public func add(x : float, y : float) => float {
+        local result : float;
+        result := x + y;
+        return (result);
+    }
+    
+    public func divide(x : float, y : float) => float {
+        if (y <> 0.0) then {
+            return (x / y);
+        } else {
+            write("Division by zero error");
+            return (0.0);
+        }
+    }
+}
+
+implement Calculator {
+    func constructor() {
+        self.value := 0.0;
+    }
+}
+
+func main() => void {
+    local calc : Calculator;
+    local result : float;
+    
+    calc := construct Calculator();
+    result := calc.add(10.5, 20.3);
+    write(result);
+    
+    while (result > 0.0) {
+        result := result - 1.0;
+        write(result);
+    }
+}

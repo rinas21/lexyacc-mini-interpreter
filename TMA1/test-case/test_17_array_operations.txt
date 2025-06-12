@@ -1,0 +1,4 @@
+array[10]
+matrix[i][j]
+list[]
+data[index + 1]

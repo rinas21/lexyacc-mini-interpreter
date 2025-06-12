@@ -1,0 +1,4 @@
+lass MyClass isa BaseClass {
+    public attribute x : integer;
+    private func calculate() => float;
+}

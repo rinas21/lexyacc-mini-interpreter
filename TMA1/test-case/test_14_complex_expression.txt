@@ -1,0 +1,4 @@
+if (x >= 10 and y <= 5.5) then
+    result := x * y + 3.14;
+else
+    result := 0;

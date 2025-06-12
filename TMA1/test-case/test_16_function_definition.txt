@@ -1,0 +1,5 @@
+func calculate(x : integer, y : float) => float {
+    local result : float;
+    result := x * y;
+    return (result);
+}

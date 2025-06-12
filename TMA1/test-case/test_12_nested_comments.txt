@@ -1,0 +1,6 @@
+Test nested comment handling
+
+
+/* Outer comment /* inner comment */ still in outer */
+x = 5;
+

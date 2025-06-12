@@ -1,0 +1,6 @@
+/* This is a block comment */
+x = 5;
+/* Multi-line
+   block comment
+   spanning lines */
+y = 10;

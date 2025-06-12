@@ -1,0 +1,7 @@
+123invalid
+-notvalid
+@invalid
+#invalid
+$invalid
+9variable
+.invalid

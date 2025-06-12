@@ -1,0 +1,5 @@
+// This is an inline comment
+x = 5; // Comment at end of line
+// Another comment
+y = 10;
+

@@ -1,0 +1,3 @@
+x := y + z * w / v - u;
+result := (a <= b) and (c >= d) or not (e == f);
+flag := x <> y;
